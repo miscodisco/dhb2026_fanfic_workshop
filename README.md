@@ -17,13 +17,19 @@ This repo will contain the materials and guides we will need for the session.
 ```
 
 ## Reading list
-Before the workshop, I recommend reading the following papers. These will also be relevant throughout the day. 
+Before the workshop, I recommend reading the following paper. It will also be relevant throughout the day. 
 
 [Jacobsen, M., & Kristensen-McLachlan, R. D. (2025). Beyond Style: Rethinking Computational Fanfiction Research. Journal of Data Mining & Digital Humanities.](https://jdmdh.episciences.org/16543/pdf) 
 
+Additionally, it can be worth orienting yourself in the TOS and FAQ from AO3 as well as the following admin post.
+[Section of TOS that contains info on data scraping](https://archiveofourown.org/tos#I.F)
+
+[FAQ, contains info on use of tags and what is allowed on the archive](https://archiveofourown.org/tos_faq)
+
 [AI and Data Scraping on the Archive — Archive of Our Own.](https://archiveofourown.org/admin_posts/25888)
+
 ## Setup and test scipts
-To ensure the session runs as smooth as possible, we encourage you to run the setup script and test script beforehand. 
+To ensure the session runs as smooth as possible, I encourage you to run the setup script and test script beforehand. 
 
 The setup.sh script can be run from the terminal, e.g., in Visual Studio Code like so:
 ```
