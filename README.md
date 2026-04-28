@@ -32,10 +32,11 @@ Additionally, it can be worth orienting yourself in the TOS and FAQ from AO3 as 
 ## Setup and test scipts
 To ensure the session runs as smooth as possible, I encourage you to do the following setup and test steps. 
 
-1. install Chrome
+**1. install Chrome**
+
 We will be using a Chrome driver for the scraping part of the session. If you do not have Chrome installed already, please do so.
 
-2. run setup.sh
+**2. run setup.sh**
 
 The setup.sh script can be run from the terminal, e.g., in Visual Studio Code like so:
 ```
@@ -43,7 +44,7 @@ source setup.sh
 ```
 The script sets up a virtual environment and installs the necessary dependencies. 
 
-3. run test.py
+**3. run test.py**
 
 After running the setup script, you should make sure everything is setup correctly by running the test.py script:
 
