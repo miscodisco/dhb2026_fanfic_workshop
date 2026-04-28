@@ -9,6 +9,7 @@ This repo will contain the materials and guides we will need for the session.
 ## Repo structure
 ```
 ├── README.md
+├── requirements.txt             <- dependencies for the session
 ├── setup.sh                     <- bash script to install and setup venv
 ├── test.py                      <- test script to run before the workshop
 ├── utils.py                     <- script with utility functions
@@ -29,13 +30,20 @@ Additionally, it can be worth orienting yourself in the TOS and FAQ from AO3 as 
 [AI and Data Scraping on the Archive — Archive of Our Own.](https://archiveofourown.org/admin_posts/25888)
 
 ## Setup and test scipts
-To ensure the session runs as smooth as possible, I encourage you to run the setup script and test script beforehand. 
+To ensure the session runs as smooth as possible, I encourage you to do the following setup and test steps. 
+
+1. install Chrome
+We will be using a Chrome driver for the scraping part of the session. If you do not have Chrome installed already, please do so.
+
+2. run setup.sh
 
 The setup.sh script can be run from the terminal, e.g., in Visual Studio Code like so:
 ```
-bash setup.sh 
+source setup.sh 
 ```
 The script sets up a virtual environment and installs the necessary dependencies. 
+
+3. run test.py
 
 After running the setup script, you should make sure everything is setup correctly by running the test.py script:
 
